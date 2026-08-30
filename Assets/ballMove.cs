@@ -2,18 +2,13 @@ using UnityEngine;
 
 public class ballMove : MonoBehaviour
 {
-    public float speed = 8f;
+    public float speed = 5f;
     private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
-        // Ângulo aleatório para baixo: entre -45° e 45° em relação a "reto para baixo"
-        float angulo = Random.Range(-45f, 45f);
-        Vector2 direcao = Quaternion.Euler(0, 0, angulo) * Vector2.down;
-
-        rb.linearVelocity = direcao.normalized * speed;
+        Lancar();
     }
 
     void OnCollisionEnter2D(Collision2D coll)
@@ -26,7 +21,15 @@ public class ballMove : MonoBehaviour
 
     void FixedUpdate()
     {
-    // Mantém a velocidade sempre no mesmo valor, só a direção muda com as colisões
-    rb.linearVelocity = rb.linearVelocity.normalized * speed;
+        rb.linearVelocity = rb.linearVelocity.normalized * speed;
+    }
+
+    // Lança a bola numa direção aleatória para baixo.
+    // Público para poder ser chamado de novo pelo BottomTrigger depois de perder uma vida.
+    public void Lancar()
+    {
+        float angulo = Random.Range(-45f, 45f);
+        Vector2 direcao = Quaternion.Euler(0, 0, angulo) * Vector2.down;
+        rb.linearVelocity = direcao.normalized * speed;
     }
 }

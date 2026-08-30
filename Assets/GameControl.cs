@@ -18,8 +18,8 @@ public class GameControl : MonoBehaviour
 
         if (vidas <= 0)
         {
-            Debug.Log("Game Over!");
-            // depois vamos trocar isso por SceneManager.LoadScene("Cena_Final");
+            Debug.Log("Game Over! Reiniciando...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

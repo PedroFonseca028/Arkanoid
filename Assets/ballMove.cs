@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ballMove : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 8f;
     private Rigidbody2D rb;
 
     void Start()
@@ -15,7 +15,11 @@ public class ballMove : MonoBehaviour
     {
         if (coll.gameObject.CompareTag("Brick"))
         {
-            Destroy(coll.gameObject);
+            Brick brick = coll.gameObject.GetComponent<Brick>();
+            if (brick != null)
+            {
+                brick.ApanharGolpe();
+            }
         }
     }
 
@@ -24,8 +28,6 @@ public class ballMove : MonoBehaviour
         rb.linearVelocity = rb.linearVelocity.normalized * speed;
     }
 
-    // Lança a bola numa direção aleatória para baixo.
-    // Público para poder ser chamado de novo pelo BottomTrigger depois de perder uma vida.
     public void Lancar()
     {
         float angulo = Random.Range(-45f, 45f);

@@ -563,6 +563,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &366223272
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +720,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &367775130
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +877,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &441164002
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1034,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &479688792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1467,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,6 +1767,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 3
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &777261206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,6 +1924,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &782453477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2114,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &916182766
 GameObject:
   m_ObjectHideFlags: 0
@@ -2145,6 +2169,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &921323010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,6 +2326,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &954953652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +2483,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 0
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &995666191
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,6 +2640,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1045186179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2761,6 +2797,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1045400447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,6 +2955,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!114 &1045400452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2930,6 +2972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 3
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1113385213
 GameObject:
   m_ObjectHideFlags: 0
@@ -3084,6 +3129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 3
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1216244347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,6 +3254,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1326183121
 GameObject:
   m_ObjectHideFlags: 0
@@ -3360,6 +3411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1343863477
 GameObject:
   m_ObjectHideFlags: 0
@@ -3653,6 +3707,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1422218005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3807,6 +3864,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 3
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1462263488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,6 +3952,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1489111755
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,7 +3967,6 @@ GameObject:
   - component: {fileID: 1489111758}
   - component: {fileID: 1489111757}
   - component: {fileID: 1489111759}
-  - component: {fileID: 1489111760}
   m_Layer: 0
   m_Name: element_grey_rectangle_0 (5)
   m_TagString: Brick
@@ -4047,20 +4109,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 0
---- !u!114 &1489111760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489111755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d24ab6fef33f2d443a31d91f8fe09b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Gerarnovasbolas
+  geraBolasExtras: 1
   bolaPrefab: {fileID: 1910837261}
-  quantidade: 2
+  quantidadeBolasExtras: 2
 --- !u!1 &1509933021
 GameObject:
   m_ObjectHideFlags: 0
@@ -4215,6 +4266,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1601284157
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,6 +4562,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1609999056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4662,6 +4719,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 3
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1630732040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4816,6 +4876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1631643540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5076,6 +5139,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1779776795
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,7 +5154,6 @@ GameObject:
   - component: {fileID: 1779776798}
   - component: {fileID: 1779776797}
   - component: {fileID: 1779776799}
-  - component: {fileID: 1779776801}
   m_Layer: 0
   m_Name: element_grey_rectangle_0 (4)
   m_TagString: Brick
@@ -5231,20 +5296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 0
---- !u!114 &1779776801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1779776795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d24ab6fef33f2d443a31d91f8fe09b5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
+  geraBolasExtras: 1
   bolaPrefab: {fileID: 1910837261}
-  quantidade: 2
+  quantidadeBolasExtras: 2
 --- !u!1 &1784888785
 GameObject:
   m_ObjectHideFlags: 0
@@ -5399,6 +5453,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1800494563
 GameObject:
   m_ObjectHideFlags: 0
@@ -5553,6 +5610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1826371696
 GameObject:
   m_ObjectHideFlags: 0
@@ -5744,6 +5804,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &1910837261
 GameObject:
   m_ObjectHideFlags: 0
@@ -6069,6 +6132,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 2
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &2068392788
 GameObject:
   m_ObjectHideFlags: 0
@@ -6223,6 +6289,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &2069098404
 GameObject:
   m_ObjectHideFlags: 0
@@ -6377,6 +6446,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 3
   indestrutivel: 0
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &2077836054
 GameObject:
   m_ObjectHideFlags: 0
@@ -6846,13 +6918,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097365436}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.016379304, z: -0, w: 0.9998659}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.44, y: 0.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 916182767}
-  m_LocalEulerAnglesHint: {x: 0, y: 1.877, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2097365440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6867,6 +6939,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Brick
   hitsParaDestruir: 1
   indestrutivel: 1
+  geraBolasExtras: 0
+  bolaPrefab: {fileID: 0}
+  quantidadeBolasExtras: 2
 --- !u!1 &2126057958
 GameObject:
   m_ObjectHideFlags: 0

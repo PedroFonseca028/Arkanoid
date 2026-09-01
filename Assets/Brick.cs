@@ -2,29 +2,46 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    public int hitsParaDestruir = 1;   // Quantas vezes a bola precisa bater
-    public bool indestrutivel = false; // Se marcado, o bloco nunca é destruído
+    public int hitsParaDestruir = 1;
+    public bool indestrutivel = false;
+    public int pontos = 10; // Quanto esse bloco vale ao ser destruído
 
     private int hitsRestantes;
+    private bool jaDestruido = false; // trava contra chamadas múltiplas no mesmo frame
 
     void Start()
     {
         hitsRestantes = hitsParaDestruir;
     }
 
-    // Chamado pelo script da bola toda vez que ela colide com este bloco
     public void ApanharGolpe()
     {
-        if (indestrutivel)
+        if (indestrutivel || jaDestruido)
         {
-            return; // não faz nada, o bloco fica intacto
+            return;
         }
 
         hitsRestantes--;
 
         if (hitsRestantes <= 0)
         {
+            jaDestruido = true;
+
+            GerarNovasBolas gerador = GetComponent<GerarNovasBolas>();
+
+            if (GameControl.instance != null)
+            {
+                GameControl.instance.AdicionarPontuacao(pontos);
+            }
+
+            // Destroi o bloco ANTES de gerar as bolas, garantindo que ele
+            // sempre morra mesmo que algo dê erro na geração
             Destroy(gameObject);
+
+            if (gerador != null)
+            {
+                gerador.GerarBolasAoSerDestruido();
+            }
         }
     }
 }

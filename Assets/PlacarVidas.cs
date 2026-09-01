@@ -3,17 +3,15 @@ using TMPro;
 
 public class PlacarVidas : MonoBehaviour
 {
-    public TextMeshProUGUI vidasText;
+    public TextMeshProUGUI placarText;
 
     void Update()
     {
-        // Só atualiza o texto se tudo já estiver pronto.
-        // Isso evita o erro caso essa linha rode antes do GameControl existir.
-        if (vidasText == null || GameControl.instance == null)
+        if (GameControl.instance == null || placarText == null)
         {
             return;
         }
 
-        vidasText.text = "Vidas: " + GameControl.instance.vidas;
+        placarText.text = "Pontos=" + GameControl.instance.pontuacao + " Vidas=" + GameControl.instance.vidas;
     }
 }

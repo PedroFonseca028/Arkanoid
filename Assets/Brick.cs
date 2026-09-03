@@ -38,6 +38,11 @@ public class Brick : MonoBehaviour
             // sempre morra mesmo que algo dê erro na geração
             Destroy(gameObject);
 
+            if (LevelManager.instance != null)
+            {
+                LevelManager.instance.NotificarBlocoDestruido();
+            }
+
             if (gerador != null)
             {
                 gerador.GerarBolasAoSerDestruido();
